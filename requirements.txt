@@ -1,0 +1,30 @@
+# LangChain Core Dependencies
+langchain-core>=0.3.21
+langchain>=0.3.25
+langchain-community>=0.3.8
+
+# Ollama integration (local LLM, no extra pip package needed if you use HTTP API)
+# If you use a LangChain Ollama wrapper, you may add:
+langchain-ollama>=0.1.0
+
+# Web Framework
+streamlit==1.32.0
+streamlit-chat==0.1.1
+
+# HTTP Requests and APIs
+requests==2.31.0
+httpx==0.26.0
+
+# Data Processing
+pandas==2.2.1
+numpy==1.26.4
+python-dateutil==2.8.2
+
+# Environment Management
+python-dotenv==1.0.1
+
+# JSON and Data Handling
+pydantic==2.7.4
+
+# Additional Utilities
+typing-extensions==4.11.0
